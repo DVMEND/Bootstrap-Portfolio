@@ -36,27 +36,19 @@ body{
 }
 
 
-.row .col-12:first-child {
+.row .col:first-child {
     padding-left: 0;
   }
   
-.row .col-12:last-child {
+.row .col:last-child {
     padding-right: 0;
   }
 
-.row .col-md-5:first-child {
+.row .col-lg-2{
     padding-left: 0;
   }
   
-.row .col-md-5:last-child {
-    padding-right: 0;
-  }
-
-.row .col-md-2{
-    padding-left: 0;
-  }
-  
-.row .col-md-2{
+.row .col-lg-2{
     padding-right: 0;
   }
 
@@ -85,6 +77,11 @@ width:100%;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000
 
 }
+
+.card2{
+    border: 2px solid black;
+}
+
 .card-title2{
     text-align:center;
 }
