@@ -6,9 +6,37 @@ body{
     background-color: #3C7A89;
 }
 
-.nav-item{
-
+#resumeButton{
+    background-color:#C7E8F3;
+    border-radius: 12px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    width:300px;
+    height:60px;
+    font-size:20px;
+    margin-right:10px;
+    
 }
+
+#emailButton{
+    background-color:#C7E8F3;
+    border-radius: 12px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    width:400px;
+    height:60px;
+    font-size:20px;
+}
+#resumeButton a {
+    color:black;
+}
+
+#emailButton a{
+    color:black;
+}
+
 
 
 .font{
@@ -87,6 +115,10 @@ width:100%;
     color: black;
     text-decoration: none;
     font-size:1em;
+}
+
+.carousel-item p {
+    color:black;
 }
 
 .carousel-control-next,
